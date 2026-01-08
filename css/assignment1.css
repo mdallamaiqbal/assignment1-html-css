@@ -4,5 +4,49 @@
     box-sizing: border-box;
 }
 /* share css */
-
+.inter{
+  font-family: "Inter", sans-serif;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 13px 16px;
+    border-radius: 4px;
+    background-color: #469165;
+    border: 1px solid #469165;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
 /* main css */
+
+nav .nav-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .nav-bar ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    transition: all linear 0.3s;
+}
+.nav-bar ul li a:hover{
+    color: #469165;
+}
