@@ -23,6 +23,21 @@
 .btn:hover {
     transform: scale(1.05);
 }
+.btn2{
+     font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 13px 16px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid #fff;
+    margin-left: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+}
+.btn2:hover {
+    transform: scale(1.05);
+}
 /* main css */
 
 nav .nav-container{
@@ -49,4 +64,43 @@ nav .nav-container{
 }
 .nav-bar ul li a:hover{
     color: #469165;
+}
+#banner{
+    background:url("../assets/hero-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 115px 120px 179px;
+}
+#banner .banner-container{
+  max-width: 770px;
+   margin: 0 auto;
+  text-align: center;
+}
+.banner-container .dot{
+    background-color: #fff;
+    color: #469165;
+    padding: 8px 12px;
+    width: 229px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius:20px;
+    margin-bottom: 16px;
+}
+.banner-container .heading{
+    font-size: 72px;
+    line-height: 84px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.banner-container .heading span{ 
+color: #30B868;
+}
+.banner-container .banner-p{
+    font-size: 18px;
+    line-height: 34px;
+    color: #fff;;
+    padding-bottom: 16px;
 }
