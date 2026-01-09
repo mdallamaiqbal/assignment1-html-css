@@ -106,7 +106,7 @@ color: #30B868;
 }
 #notes{
     background-color: #fbfbfb;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 #notes .notes-container{
@@ -151,4 +151,41 @@ gap: 24px;
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
+}
+#solution{
+     margin-bottom: 120px;
+}
+.p-col{
+    color: #30B868;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+#solution .solution-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.solution-container .design-img{
+    width: 600px;
+}
+.solution-container .solution-heading{
+    width: 515px;
+}
+.solution-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.solution-heading .p-col2{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.solution-heading ul li{
+list-style: none;
+display: flex;
+gap: 6px;
+align-items: center;
+padding-bottom: 16px;
 }
