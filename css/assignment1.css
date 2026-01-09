@@ -104,3 +104,51 @@ color: #30B868;
     color: #fff;;
     padding-bottom: 16px;
 }
+#notes{
+    background-color: #fbfbfb;
+    margin-bottom: 100px;
+}
+
+#notes .notes-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.notes-container h2{
+    padding-top: 70px;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-container p{
+    color:#627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.notes-container .notes-box{
+display: flex;
+gap: 24px;
+}
+.notes-box .note-card{
+    background-color: #fff;
+    width: 332px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 #00000060;
+    padding: 59px 24px 0;
+}
+.note-card .card-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin: 0 auto;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+.note-card  h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
